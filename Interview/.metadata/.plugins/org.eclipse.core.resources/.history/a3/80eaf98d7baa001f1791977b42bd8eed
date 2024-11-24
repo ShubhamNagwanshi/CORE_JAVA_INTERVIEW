@@ -1,0 +1,15 @@
+package practice;
+
+public class ConstructorC {
+
+	String fName;
+	String lName;
+	String address;
+	public ConstructorC() {
+		System.out.println("default constructor");
+	}
+	
+	public ConstructorC(String fName) {
+		this.fName = fName;
+	}
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\rays software\Interview\.metadata\.plugins\org.eclipse.jdt.core
+3285135714.index
+1372146305.index
+3352537029.index
+1024446143.index

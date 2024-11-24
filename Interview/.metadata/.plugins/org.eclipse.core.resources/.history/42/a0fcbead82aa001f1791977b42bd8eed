@@ -1,0 +1,7 @@
+package practice;
+
+public class TestDeep {
+public static void main(String[] args) throws CloneNotSupportedException {
+	
+}
+}

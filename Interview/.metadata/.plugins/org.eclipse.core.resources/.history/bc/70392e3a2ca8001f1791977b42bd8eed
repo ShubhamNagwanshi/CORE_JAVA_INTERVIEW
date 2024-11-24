@@ -1,0 +1,14 @@
+package practical;
+
+public class ExplicitTest extends Explicit {
+
+	public ExplicitTest(String name) {
+		(name);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		ExplicitTest e = new ExplicitTest("Shubh");
+	}
+
+}
