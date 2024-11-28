@@ -1,0 +1,15 @@
+package practical;
+
+public class ShallowCloningTest {
+public static void main(String[] args) throws CloneNotSupportedException{
+	
+	ShallowCloning s = new ShallowCloning();
+	s.balance = 100;
+	
+	ShallowCloning s1 = (ShallowCloning) s;
+	s1.balance = 200;
+	
+	System.out.println(s.balance);
+	System.out.println(s1.balance);
+}
+}

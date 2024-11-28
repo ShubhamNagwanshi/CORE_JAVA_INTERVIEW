@@ -1,0 +1,8 @@
+package practical;
+
+public final class Immutable {
+	
+	private final int num;
+	
+
+}
