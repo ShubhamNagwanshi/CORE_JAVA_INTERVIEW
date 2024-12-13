@@ -1,0 +1,17 @@
+package Comparator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestSortByName {
+
+	public static void main(String[] args) {
+		
+		List l = new ArrayList();
+		
+		l.add(new Employee(4,"BB",2000));
+		l.add(new Employee(2,"AA",2000));
+		l.add(new Employee(1,"DD",2000));
+		l.add(new Employee(3,"CC",2000));
+	}
+}

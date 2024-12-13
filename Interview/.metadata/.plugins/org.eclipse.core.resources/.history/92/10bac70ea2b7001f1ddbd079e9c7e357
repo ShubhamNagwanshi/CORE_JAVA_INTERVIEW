@@ -1,0 +1,30 @@
+package practical;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class EqualHashCodeTest1 {
+	public static void main(String[] args) {
+		
+		EqualHashCode e1= new EqualHashCode(1,"Shubham",2000);
+		EqualHashCode e2= new EqualHashCode(1,"Shubham",2000);
+		EqualHashCode e3= new EqualHashCode(10,"Sonali",5000);
+
+
+		if(e1.equals(e2)) {
+		
+			System.out.println(e1.equals(e2));
+			System.out.println(e1.hashCode());
+			System.out.println(e2.hashCode());
+			
+			Set s = new HashSet();
+			s.add(e1);
+			s.add(e2);
+			System.out.println(s);
+			s.add(e3);
+			System.out.println(s);
+		}
+
+	}
+
+}

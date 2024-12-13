@@ -1,0 +1,19 @@
+package practical;
+
+import java.util.HashMap;
+
+public class MapMethods {
+	public static void main(String[] args) {
+		
+		HashMap map = new HashMap();
+		
+		map.put(1, "a");
+		map.put(2, "b");
+		map.put(3, "c");
+		map.put(4, "d");
+		
+		System.out.println(map.get(2));
+		System.out.println(map.size());
+	}
+
+}

@@ -1,516 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Nov 2024 00:34:34 GMT</lastBuildDate><item><title><![CDATA[Spring Cloud 2023.0.4 (aka Leyton) Has Been Released]]></title><link>https://spring.io/blog/2024/11/27/spring-cloud-2023-0-4</link><guid isPermaLink="true">https://spring.io/blog/2024/11/27/spring-cloud-2023-0-4</guid><dc:creator><![CDATA[olegz]]></dc:creator><pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the Spring Cloud team, I am pleased to announce that the &lt;a href=&quot;https://enterprise.spring.io/projects/spring-cloud&quot;&gt;Spring Cloud 2023.0.4 - Leyton&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href=&quot;https://repo.maven.apache.org/maven2/org/springframework/cloud/&quot;&gt;https://repo.maven.apache.org/maven2/org/springframework/cloud/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;notable-changes-in-the-202304-release-train&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notable-changes-in-the-202304-release-train&quot; aria-label=&quot;notable changes in the 202304 release train permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notable Changes in the 2023.0.4 Release Train&lt;/h2&gt;
-&lt;p&gt;This release of Spring Cloud is based on Spring Boot 3.2.12 and 3.3.6.&lt;/p&gt;
-&lt;p&gt;The GitHub project for this release can be found &lt;a href=&quot;https://github.com/orgs/spring-cloud/projects/146&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;spring-cloud-commons&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-commons&quot; aria-label=&quot;spring cloud commons permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Commons&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Dec 2024 12:03:09 GMT</lastBuildDate><item><title><![CDATA[Spring Data 2024.1.1 and 2024.0.7 released]]></title><link>https://spring.io/blog/2024/12/13/spring-data-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/12/13/spring-data-2024</guid><dc:creator><![CDATA[christophstrobl]]></dc:creator><pubDate>Fri, 13 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I’m pleased to announce the availability of &lt;code&gt;2024.1.1&lt;/code&gt; and &lt;code&gt;2024.0.7&lt;/code&gt; service releases. These releases ship with dependency upgrades, fixes for regressions and selected improvements.&lt;/p&gt;
+&lt;p&gt;The upcoming Spring Boot releases will pick up the above releases by next week.&lt;/p&gt;
+&lt;p&gt;Those releases conclude an exceptional year for the Spring Data project with all of your contributions. Thank you.
+We wish you happy holidays and a Happy New Year.&lt;/p&gt;
+&lt;p&gt;Going forward, we plan on shipping a first milestone of the Spring Data 4.0 development line (Calver 2025.1.0 M1) in January containing several refinements around JPA support including the baseline upgrade to JPA 3.2. Stay tuned!&lt;/p&gt;
+&lt;h2 id=&quot;202411&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#202411&quot; aria-label=&quot;202411 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2024.1.1&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Create truststore without keystore (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/pull/1394&quot;&gt;#1394&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/reference/3.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/reference/3.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/reference/3.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/reference/4.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/reference/4.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/reference/7.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/reference/3.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/reference/4.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/reference/3.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/reference/5.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/reference/5.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.4.1&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/docs/3.4.1/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/reference/3.4/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.4.1&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;spring-cloud-gateway&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-gateway&quot; aria-label=&quot;spring cloud gateway permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
+&lt;h2 id=&quot;202407&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#202407&quot; aria-label=&quot;202407 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2024.0.7&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Updated to use &lt;code&gt;HttpHeaders#headerSet&lt;/code&gt; where appropriate. This change requires &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/33823&quot;&gt;Spring Framework 6.1.15+&lt;/a&gt;, which is available in Spring Boot 3.2.12+ or 3.3.6+. (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/issues/3596&quot;&gt;3596&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;spring-cloud-circuitbreaker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-circuitbreaker&quot; aria-label=&quot;spring cloud circuitbreaker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud CircuitBreaker&lt;/h2&gt;
+&lt;li&gt;Spring Data Commons &lt;code&gt;3.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/docs/3.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/commons/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-commons/releases/tag/3.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data JPA &lt;code&gt;3.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/docs/3.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/jpa/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-jpa/releases/tag/3.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data KeyValue &lt;code&gt;3.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/docs/3.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/keyvalue/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-keyvalue/releases/tag/3.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB &lt;code&gt;4.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/docs/4.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/mongodb/reference/4.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-mongodb/releases/tag/4.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data for Apache Cassandra &lt;code&gt;4.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/docs/4.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/cassandra/reference/4.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-cassandra/releases/tag/4.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j &lt;code&gt;7.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/docs/7.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/neo4j/reference/7.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-neo4j/releases/tag/7.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data LDAP &lt;code&gt;3.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/docs/3.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/ldap/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-ldap/releases/tag/3.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data REST &lt;code&gt;4.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/docs/4.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/rest/reference/4.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-rest/releases/tag/4.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Redis &lt;code&gt;3.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/docs/3.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/redis/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-redis/releases/tag/3.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch &lt;code&gt;5.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/docs/5.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/elasticsearch/reference/5.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/5.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase &lt;code&gt;5.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/docs/5.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/couchbase/reference/5.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-couchbase/releases/tag/5.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Data Relational &lt;code&gt;3.3.7&lt;/code&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/docs/3.3.7/api/&quot;&gt;Javadoc&lt;/a&gt; - &lt;a href=&quot;https://docs.spring.io/spring-data/relational/reference/3.3/&quot;&gt;Documentation&lt;/a&gt; - &lt;a href=&quot;https://github.com/spring-projects/spring-data-relational/releases/tag/3.3.7&quot;&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: the amazing K. Siva Prasad Reddy (SivaLabs)]]></title><link>https://spring.io/blog/2024/12/12/a-bootiful-podcast-sivalabs</link><guid isPermaLink="true">https://spring.io/blog/2024/12/12/a-bootiful-podcast-sivalabs</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In today&apos;s installment I talk to industry legend K. Siva Prasad Reddy (@sivalabs). You&apos;ve probably read one of his blogs. I know I have!&lt;/p&gt;
+&lt;iframe title=&quot;the amazing K. Siva Prasad Reddy (SivaLabs)&quot; allowtransparency=&quot;true&quot; height=&quot;300&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:300px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?from=embed&amp;i=nq8hs-176b208-pb&amp;square=1&amp;share=1&amp;download=1&amp;fonts=Arial&amp;skin=1&amp;font-color=auto&amp;rtl=0&amp;logo_link=episode_page&amp;btn-skin=7&amp;size=300&quot; loading=&quot;lazy&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Framework 6.1.16 and 6.2.1 Available Now]]></title><link>https://spring.io/blog/2024/12/12/spring-framework-6-1-16-and-6-2-1-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/12/12/spring-framework-6-1-16-and-6-2-1-available-now</guid><dc:creator><![CDATA[bclozel]]></dc:creator><pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;6.1.16&lt;/code&gt; and &lt;code&gt;6.2.1&lt;/code&gt; are available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;6.1.16&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.1.16&quot;&gt;6 fixes and documentation improvements&lt;/a&gt;. This version will be shipped with &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestone/363&quot;&gt;Spring Boot 3.3.7&lt;/a&gt; next week.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;6.2.1&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.2.1&quot;&gt;49 fixes and documentation improvements&lt;/a&gt;, including &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues?q=label%3A%22type%3A+regression%22+milestone%3A6.2.1&quot;&gt;several regressions from 6.2.0&lt;/a&gt;. This version will be shipped with &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestone/364&quot;&gt;Spring Boot 3.4.1&lt;/a&gt; next week.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-framework/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-framework&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-framework/reference/&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Announcing Spring AI MCP: A Java SDK for the Model Context Protocol]]></title><link>https://spring.io/blog/2024/12/11/spring-ai-mcp-announcement</link><guid isPermaLink="true">https://spring.io/blog/2024/12/11/spring-ai-mcp-announcement</guid><dc:creator><![CDATA[tzolov]]></dc:creator><pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We&apos;re excited to introduce Spring AI MCP, a robust Java SDK implementation of the &lt;a href=&quot;https://modelcontextprotocol.io/introduction&quot;&gt;Model Context Protocol (MCP)&lt;/a&gt;.
+This new addition to the Spring AI ecosystem brings standardized AI model integration capabilities to the Java platform.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-mcp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-mcp&quot; aria-label=&quot;what is mcp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is MCP?&lt;/h2&gt;
+&lt;p&gt;The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to Large Language Models (LLMs).
+MCP provides a standardized way to connect AI models to different data sources and tools, making integration seamless and consistent.
+It helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;TimeLimiter disable by group or instance level (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/issues/202&quot;&gt;#202&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;A growing list of pre-built integrations that your LLM can directly plug into&lt;/li&gt;
+&lt;li&gt;The flexibility to switch between LLM providers and vendors&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;spring-cloud-config&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-config&quot; aria-label=&quot;spring cloud config permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Config&lt;/h2&gt;
+&lt;h3 id=&quot;general-architecture&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#general-architecture&quot; aria-label=&quot;general architecture permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;General architecture&lt;/h3&gt;
+&lt;p&gt;At its core, MCP follows a client-server architecture where a host application can connect to multiple servers.&lt;/p&gt;
+&lt;img src=&quot;https://static.spring.io/blog/tzolov/spring-ai-mcp-architecture.jpg&quot; width=&quot;700&quot;&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/spring-projects-experimental/spring-ai-mcp&quot;&gt;Spring AI MCP&lt;/a&gt; implements a modular architecture with the following components:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Uses label when searching secrets in SpringVaultEnvironmentRepository (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/pull/2460&quot;&gt;#2460&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Support multiple labels in JdbcEnvironmentRepository (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/issues/2449&quot;&gt;#2455&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Makes default-label in CredhubEnvironmentRepository configurable (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/pull/2519&quot;&gt;#2519&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Spring AI Application: Uses Spring AI framework to build Generative AI applications that want to access data through MCP&lt;/li&gt;
+&lt;li&gt;Spring MCP Clients: Spring AI implementation of the MCP protocol that maintain 1:1 connections with servers&lt;/li&gt;
+&lt;li&gt;MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol&lt;/li&gt;
+&lt;li&gt;Local Data Sources: Your computer&apos;s files, databases, and services that MCP servers can securely access&lt;/li&gt;
+&lt;li&gt;Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;spring-cloud-stream&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-stream&quot; aria-label=&quot;spring cloud stream permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Stream&lt;/h3&gt;
+&lt;p&gt;The architecture supports a wide range of use cases, from simple file system access to complex multi-model AI interactions with database and internet connectivity.&lt;/p&gt;
+&lt;h2 id=&quot;getting-started&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started&quot; aria-label=&quot;getting started permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Spring AI MCP GitHub: &lt;a href=&quot;https://github.com/spring-projects-experimental/spring-ai-mcp&quot;&gt;https://github.com/spring-projects-experimental/spring-ai-mcp&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;maven-dependencies&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#maven-dependencies&quot; aria-label=&quot;maven dependencies permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Maven Dependencies&lt;/h3&gt;
+&lt;p&gt;Add one of the following dependecies to your Maven project:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;dependency&gt;
+    &amp;#x3C;groupId&gt;org.springframework.experimental&amp;#x3C;/groupId&gt;
+    &amp;#x3C;artifactId&gt;spring-ai-mcp-core&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;version&gt;0.1.0&amp;#x3C;/version&gt;
+&amp;#x3C;/dependency&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;dependency&gt;
+    &amp;#x3C;groupId&gt;org.springframework.experimental&amp;#x3C;/groupId&gt;
+    &amp;#x3C;artifactId&gt;spring-ai-mcp-spring&amp;#x3C;/artifactId&gt;
+    &amp;#x3C;version&gt;0.1.0&amp;#x3C;/version&gt;
+&amp;#x3C;/dependency&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Latter extends the &lt;code&gt;spring-ai-mcp-core&lt;/code&gt; with additional Spring AI abstractions, such as &lt;code&gt;McpFunctionCallback&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;maven-repository-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#maven-repository-configuration&quot; aria-label=&quot;maven repository configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Maven Repository Configuration&lt;/h3&gt;
+&lt;p&gt;Add the Spring Milestones repository:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;repositories&gt;
+    &amp;#x3C;repository&gt;
+        &amp;#x3C;id&gt;spring-milestones&amp;#x3C;/id&gt;
+        &amp;#x3C;name&gt;Spring Milestones&amp;#x3C;/name&gt;
+        &amp;#x3C;url&gt;https://repo.spring.io/libs-milestone-local&amp;#x3C;/url&gt;
+        &amp;#x3C;snapshots&gt;
+            &amp;#x3C;enabled&gt;false&amp;#x3C;/enabled&gt;
+        &amp;#x3C;/snapshots&gt;
+    &amp;#x3C;/repository&gt;
+&amp;#x3C;/repositories&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;example-demos&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#example-demos&quot; aria-label=&quot;example demos permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Example Demos&lt;/h3&gt;
+&lt;p&gt;Explore these MCP examples in the &lt;a href=&quot;https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol&quot;&gt;spring-ai-examples/model-context-protocol&lt;/a&gt; repository:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support for &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/commit/2517760529d2a7f5bb14e6fd6c59cd10075380ed&quot;&gt;customizing message converter behavior&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Upgrade to spring-kafka 3.3.0&lt;/li&gt;
-&lt;li&gt;Documentation improvements arond batch type conversion&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol/sqlite/simple&quot;&gt;SQLite Simple&lt;/a&gt; - Demonstrates LLM integration with a database&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol/sqlite/chatbot&quot;&gt;SQLite Chatbot&lt;/a&gt; - Interactive chatbot with SQLite database interaction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-ai-examples/tree/main/model-context-protocol/filesystem&quot;&gt;Filesystem&lt;/a&gt; - Enables LLM interaction with local filesystem folders and files&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;spring-cloud-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-function&quot; aria-label=&quot;spring cloud function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Function&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Enhancements to serverless web container&lt;/li&gt;
-&lt;li&gt;Logging for AWS Context&lt;/li&gt;
-&lt;li&gt;Improvements around Kotlin type resolution&lt;/li&gt;
-&lt;li&gt;Improvements around ObjectMapper registration and configuartion.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The following modules were updated as part of 2024.0.0-M2:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Module&lt;/th&gt;
-&lt;th&gt;Version&lt;/th&gt;
-&lt;th&gt;Issues&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Bus&lt;/td&gt;
-&lt;td&gt;4.1.3&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bus/releases/tag/v4.1.3&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Contract&lt;/td&gt;
-&lt;td&gt;4.1.5&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/releases/tag/v4.1.5&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Circuitbreaker&lt;/td&gt;
-&lt;td&gt;3.1.3&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/releases/tag/v3.1.3&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Zookeeper&lt;/td&gt;
-&lt;td&gt;4.1.3&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-zookeeper/releases/tag/v4.1.3&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Task&lt;/td&gt;
-&lt;td&gt;3.1.3&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-task/releases/tag/v3.1.3&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Kubernetes&lt;/td&gt;
-&lt;td&gt;3.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/releases/tag/v3.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Starter Build&lt;/td&gt;
-&lt;td&gt;2023.0.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-starter-build/releases/tag/v2023.0.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Netflix&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Openfeign&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Commons&lt;/td&gt;
-&lt;td&gt;4.1.5&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/releases/tag/v4.1.5&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Consul&lt;/td&gt;
-&lt;td&gt;4.1.3&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-consul/releases/tag/v4.1.3&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Config&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Vault&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-vault/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Build&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-build/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Gateway&lt;/td&gt;
-&lt;td&gt;4.1.6&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/releases/tag/v4.1.6&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Stream&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Function&lt;/td&gt;
-&lt;td&gt;4.1.4&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/releases/tag/v4.1.4&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;As always, we welcome feedback on &lt;a href=&quot;https://github.com/spring-cloud/&quot;&gt;GitHub&lt;/a&gt;, on &lt;a href=&quot;https://gitter.im/spring-cloud/spring-cloud&quot;&gt;Gitter&lt;/a&gt;, on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud&quot;&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href=&quot;https://twitter.com/SpringCloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;    &amp;#x3C;repositories&gt;
-        &amp;#x3C;repository&gt;
-            &amp;#x3C;id&gt;spring-milestones&amp;#x3C;/id&gt;
-            &amp;#x3C;name&gt;Spring Milestones&amp;#x3C;/name&gt;
-            &amp;#x3C;url&gt;https://repo.spring.io/milestone&amp;#x3C;/url&gt;
-            &amp;#x3C;snapshots&gt;
-                &amp;#x3C;enabled&gt;false&amp;#x3C;/enabled&gt;
-            &amp;#x3C;/snapshots&gt;
-        &amp;#x3C;/repository&gt;
-    &amp;#x3C;/repositories&gt;
-&amp;#x3C;dependencyManagement&gt;
-    &amp;#x3C;dependencies&gt;
-        &amp;#x3C;dependency&gt;
-            &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
-            &amp;#x3C;artifactId&gt;spring-cloud-dependencies&amp;#x3C;/artifactId&gt;
-            &amp;#x3C;version&gt;2023.0.4&amp;#x3C;/version&gt;
-            &amp;#x3C;type&gt;pom&amp;#x3C;/type&gt;
-            &amp;#x3C;scope&gt;import&amp;#x3C;/scope&gt;
-        &amp;#x3C;/dependency&gt;
-    &amp;#x3C;/dependencies&gt;
-&amp;#x3C;/dependencyManagement&gt;
-&amp;#x3C;dependencies&gt;
-    &amp;#x3C;dependency&gt;
-        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
-        &amp;#x3C;artifactId&gt;spring-cloud-starter-config&amp;#x3C;/artifactId&gt;
-    &amp;#x3C;/dependency&gt;
-    &amp;#x3C;dependency&gt;
-        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
-        &amp;#x3C;artifactId&gt;spring-cloud-starter-netflix-eureka-client&amp;#x3C;/artifactId&gt;
-    &amp;#x3C;/dependency&gt;
-    ...
-&amp;#x3C;/dependencies&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or with Gradle:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;plugins {
-  id &apos;java&apos;
-  id &apos;org.springframework.boot&apos; version &apos;3.2.11&apos;
-  id &apos;io.spring.dependency-management&apos; version &apos;1.1.6&apos;
-}
-
-repositories {
-  mavenCentral()
-  maven { url &apos;https://repo.spring.io/milestone&apos; }
-}
-
-ext {
-  set(&apos;springCloudVersion&apos;, &quot;2023.0.4&quot;)
-}
-
-dependencies {
-  implementation &apos;org.springframework.cloud:spring-cloud-starter-config&apos;
-  implementation &apos;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&apos;
-}
-
-dependencyManagement {
-  imports {
-    mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Spring Cloud Stream Applications 2022.0.1 GA Release now available]]></title><link>https://spring.io/blog/2024/11/27/spring-cloud-stream-applications-2022-0-1-ga-release-now-available</link><guid isPermaLink="true">https://spring.io/blog/2024/11/27/spring-cloud-stream-applications-2022-0-1-ga-release-now-available</guid><dc:creator><![CDATA[corneil]]></dc:creator><pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Stream Applications &lt;code&gt;2022.0.1&lt;/code&gt; has been released.&lt;/p&gt;
-&lt;p&gt;This release is updates to Spring Boot &lt;code&gt;3.1.12&lt;/code&gt; and Spring Cloud &lt;code&gt;2022.0.5&lt;/code&gt; and contains some bug fixes - check out the &lt;a href=&quot;https://github.com/spring-cloud/stream-applications/releases/tag/v2022.0.1&quot;&gt;release notes&lt;/a&gt; for more information.&lt;/p&gt;
-&lt;h2 id=&quot;stay-in-touch&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stay-in-touch&quot; aria-label=&quot;stay in touch permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Stay in touch...&lt;/h2&gt;
-&lt;p&gt;Please continue to engage with us by creating bug reports and feature requests on &lt;a href=&quot;https://github.com/spring-cloud/stream-applications&quot;&gt;Github&lt;/a&gt; and asking questions on StackOverflow using the &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud-stream&quot;&gt;spring-cloud-stream&lt;/a&gt; or &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud-dataflow&quot;&gt;spring-cloud-dataflow&lt;/a&gt; tags.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[HTTP/3 support in Reactor 2024.0 Release Train]]></title><link>https://spring.io/blog/2024/11/26/http3-in-reactor-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/11/26/http3-in-reactor-2024</guid><dc:creator><![CDATA[violetagg]]></dc:creator><pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc9114&quot;&gt;HTTP/3&lt;/a&gt;, the latest major version of the &lt;code&gt;Hypertext Transfer Protocol&lt;/code&gt;,
-had its specification finalized in June 2022. This version is designed to enhance performance, reliability, and security.
-Unlike its predecessors, &lt;code&gt;HTTP/3&lt;/code&gt; utilizes &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc9000&quot;&gt;QUIC&lt;/a&gt; instead of &lt;code&gt;TCP&lt;/code&gt; as its transport layer.
-&lt;code&gt;QUIC&lt;/code&gt; is a &lt;code&gt;UDP&lt;/code&gt;-based, multiplexed, and secure transport protocol that includes built-in &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc8446&quot;&gt;TLS 1.3&lt;/a&gt; encryption,
-making &lt;code&gt;QUIC&lt;/code&gt; encrypted by default.&lt;/p&gt;
-&lt;p&gt;To learn more about the performance and benefits of &lt;code&gt;HTTP/3&lt;/code&gt;, check out &lt;a href=&quot;https://www.cloudflare.com/en-gb/learning/performance/what-is-http3/&quot;&gt;What is HTTP/3&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For information on browser adoption, take a look at &lt;a href=&quot;https://blog.cloudflare.com/http3-usage-one-year-on/&quot;&gt;Examining HTTP/3 Usage&lt;/a&gt;,
-which also provides raw data on &lt;code&gt;HTTP&lt;/code&gt; versions used by different browsers.&lt;/p&gt;
-&lt;p&gt;Reactor Netty &lt;code&gt;1.2&lt;/code&gt; (part of Reactor &lt;code&gt;2024.0&lt;/code&gt; Release Train) adds &lt;code&gt;HTTP/3&lt;/code&gt; experimental support.
-With this new version of Reactor Netty, your Spring Boot application and Spring Cloud Gateway can be configured to support &lt;code&gt;HTTP/3&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Let’s see how you can configure the &lt;code&gt;HTTP/3&lt;/code&gt; support.&lt;/p&gt;
-&lt;h2 id=&quot;configure-reactor-bom-version&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configure-reactor-bom-version&quot; aria-label=&quot;configure reactor bom version permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configure Reactor BOM Version&lt;/h2&gt;
-&lt;p&gt;Spring Boot &lt;code&gt;3.4&lt;/code&gt; comes by default with Reactor &lt;code&gt;2024.0&lt;/code&gt; Release Train!&lt;/p&gt;
-&lt;p&gt;If you run an older Spring Boot version, you can experiment with this new feature by bumping Reactor BOM to &lt;code&gt;2024.0&lt;/code&gt;
-(As of this writing, &lt;code&gt;2024.0.0&lt;/code&gt; is the latest version).&lt;/p&gt;
-&lt;p&gt;Maven&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;properties&gt;
-    &amp;#x3C;reactor-bom.version&gt;2024.0.0&amp;#x3C;/reactor-bom.version&gt;
-&amp;#x3C;/properties&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Gradle&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;ext[&apos;reactor-bom.version&apos;] = &apos;2024.0.0&apos;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;configure-netty-http3-codec&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configure-netty-http3-codec&quot; aria-label=&quot;configure netty http3 codec permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configure Netty HTTP3 Codec&lt;/h2&gt;
-&lt;p&gt;You also need to add a runtime dependency on the &lt;a href=&quot;https://github.com/netty/netty-incubator-codec-http3&quot;&gt;Netty HTTP3 Codec&lt;/a&gt;
-(As of this writing, &lt;code&gt;0.0.28.Final&lt;/code&gt; is the latest version).&lt;/p&gt;
-&lt;p&gt;Maven&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;dependencies&gt;
-    &amp;#x3C;dependency&gt;
-        &amp;#x3C;groupId&gt;io.netty.incubator&amp;#x3C;/groupId&gt;
-        &amp;#x3C;artifactId&gt;netty-incubator-codec-http3&amp;#x3C;/artifactId&gt;
-        &amp;#x3C;version&gt;0.0.28.Final&amp;#x3C;/version&gt;
-        &amp;#x3C;scope&gt;runtime&amp;#x3C;/scope&gt;
-    &amp;#x3C;/dependency&gt;
-&amp;#x3C;/dependencies&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Gradle&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;dependencies {
-    runtimeOnly &apos;io.netty.incubator:netty-incubator-codec-http3:0.0.28.Final&apos;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;the-server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-server&quot; aria-label=&quot;the server permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Server&lt;/h2&gt;
-&lt;h3 id=&quot;configure-ssl-bundle&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configure-ssl-bundle&quot; aria-label=&quot;configure ssl bundle permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configure SSL Bundle&lt;/h3&gt;
-&lt;p&gt;The first thing that you need to provide is an
-&lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.ssl&quot;&gt;SSL bundle&lt;/a&gt;
-with the configuration that your application requires: keystore, ciphers etc.&lt;/p&gt;
-&lt;p&gt;application.properties&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;spring.ssl.bundle.jks.server-http3.key.alias=http3
-spring.ssl.bundle.jks.server-http3.keystore.location=...
-spring.ssl.bundle.jks.server-http3.keystore.password=...
-...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;application.yml&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;spring:
-  ssl:
-    bundle:
-      jks:
-        server-http3:
-          key:
-            alias: http3
-          keystore:
-            location: ...
-            password: ...
-          ...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;configure-the-embedded-server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configure-the-embedded-server&quot; aria-label=&quot;configure the embedded server permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configure the Embedded Server&lt;/h3&gt;
-&lt;p&gt;Spring Boot gives you the ability to configure the embedded server.
-Spring Cloud Gateway uses the same approach to achieve this task.&lt;/p&gt;
-&lt;p&gt;You can declare a component &lt;code&gt;WebServerFactoryCustomizer&lt;/code&gt; and get access to the server factory.
-In order to enable the &lt;code&gt;HTTP/3&lt;/code&gt; support you need to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Specify the &lt;a href=&quot;https://projectreactor.io/docs/netty/release/api/reactor/netty/http/HttpProtocol.html#HTTP3&quot;&gt;HTTP/3 protocol&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;By default, Reactor Netty is configured to support &lt;code&gt;HTTP/1.1&lt;/code&gt;, so you need to change it.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Specify the &lt;a href=&quot;https://projectreactor.io/docs/netty/release/api/reactor/netty/http/Http3SettingsSpec.Builder.html&quot;&gt;HTTP/3 settings&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;By default, Reactor Netty does not provide any settings because those are strongly specific to the application, so you have to configure them: idle timeout, max streams, etc.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Specify the &lt;a href=&quot;https://projectreactor.io/docs/netty/release/api/reactor/netty/http/Http3SslContextSpec.html&quot;&gt;HTTP/3 SSLContext&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;SSL Bundle&lt;/code&gt;, that was configured previously, can be obtained from the server factory via its name &lt;code&gt;factory.getSslBundles().getBundle(&quot;server-http3&quot;)&lt;/code&gt;
-and you can configure &lt;code&gt;Http3SslContextSpec&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Component
-class Http3NettyWebServerCustomizer implements WebServerFactoryCustomizer&amp;#x3C;NettyReactiveWebServerFactory&gt; {
-
-    @Override
-    public void customize(NettyReactiveWebServerFactory factory) {
-        factory.addServerCustomizers(server -&gt; {
-            SslBundle sslBundle = factory.getSslBundles().getBundle(&quot;server-http3&quot;);
-            Http3SslContextSpec sslContextSpec =
-                Http3SslContextSpec.forServer(sslBundle.getManagers().getKeyManagerFactory(), sslBundle.getKey().getPassword());
-
-            return server
-                    // Configure HTTP/3 protocol
-                    .protocol(HttpProtocol.HTTP3)
-                    // Configure HTTP/3 SslContext
-                    .secure(spec -&gt; spec.sslContext(sslContextSpec))
-                    // Configure HTTP/3 settings
-                    .http3Settings(spec -&gt; spec
-                            .idleTimeout(Duration.ofSeconds(5))
-                            .maxData(10_000_000)
-                            .maxStreamDataBidirectionalRemote(1_000_000)
-                            .maxStreamsBidirectional(100));
-        });
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;rest-controller&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rest-controller&quot; aria-label=&quot;rest controller permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;REST Controller&lt;/h3&gt;
-&lt;p&gt;The last thing that you have to add is a simple &lt;code&gt;hello&lt;/code&gt; REST controller. The REST controller does not need any specific &lt;code&gt;HTTP/3&lt;/code&gt; configuration!&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@RestController
-class Http3Controller {
-
-    @GetMapping(&quot;/hello&quot;)
-    String hello() {
-        return &quot;Hello HTTP/3!&quot;;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now you are ready for your first &lt;code&gt;HTTP/3&lt;/code&gt; request:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl --http3 https://localhost:8443/hello --verbose
-* Connected to localhost (::1) port 8443
-* using HTTP/3
-* [HTTP/3] [0] OPENED stream for https://localhost:8443/hello
-* [HTTP/3] [0] [:method: GET]
-* [HTTP/3] [0] [:scheme: https]
-* [HTTP/3] [0] [:authority: localhost:8443]
-* [HTTP/3] [0] [:path: /hello]
-* [HTTP/3] [0] [user-agent: curl]
-* [HTTP/3] [0] [accept: */*]
-&gt; GET /hello HTTP/3
-&gt; Host: localhost:8443
-&gt; User-Agent: curl
-&gt; Accept: */*
-&gt; 
-* Request completely sent off
-&amp;#x3C; HTTP/3 200 
-&amp;#x3C; content-type: text/plain;charset=UTF-8
-&amp;#x3C; content-length: 13
-&amp;#x3C; 
-* Connection #0 to host localhost left intact
-Hello HTTP/3!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/violetagg/spring-webflux-http3&quot;&gt;spring-webflux-http3&lt;/a&gt; repository contains the complete example!&lt;/p&gt;
-&lt;h2 id=&quot;the-client&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-client&quot; aria-label=&quot;the client permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Client&lt;/h2&gt;
-&lt;p&gt;Configuring the &lt;code&gt;HTTP/3&lt;/code&gt; support for the client is similar to how you configure the server!&lt;/p&gt;
-&lt;p&gt;You need to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Specify the &lt;a href=&quot;https://projectreactor.io/docs/netty/release/api/reactor/netty/http/HttpProtocol.html#HTTP3&quot;&gt;HTTP/3 protocol&lt;/a&gt;.
-By default, Reactor Netty is configured to support &lt;code&gt;HTTP/1.1&lt;/code&gt;, so you need to change it.&lt;/li&gt;
-&lt;li&gt;Specify the &lt;a href=&quot;https://projectreactor.io/docs/netty/release/api/reactor/netty/http/Http3SettingsSpec.Builder.html&quot;&gt;HTTP/3 settings&lt;/a&gt;.
-By default, Reactor Netty does not provide any settings because those are strongly specific to the application, so you have to configure them: idle timeout, max streams, etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;import reactor.netty.http.client.HttpClient;
-
-HttpClient client = HttpClient.create()
-        // Configure HTTP/3 protocol
-        .protocol(HttpProtocol.HTTP3)
-        // Configure HTTP/3 settings
-        .http3Settings(spec -&gt; spec
-                .idleTimeout(Duration.ofSeconds(5))
-                .maxData(10_000_000)
-                .maxStreamDataBidirectionalLocal(1_000_000));
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;By default, the client uses the standard &lt;code&gt;HTTP/3&lt;/code&gt; &lt;code&gt;SSLContext&lt;/code&gt; provided by Reactor Netty.
-However, if you need more specific configuration: truststore, ciphers, etc., you can prepare &lt;code&gt;SSL Bundle&lt;/code&gt; similar to how you prepare it for the server
-and you can configure &lt;code&gt;Http3SslContextSpec&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;SslBundle sslBundle = factory.getSslBundles().getBundle(&quot;client-http3&quot;);
-Http3SslContextSpec sslContextSpec = Http3SslContextSpec.forClient()
-        // Configure TrustStore etc.
-        .configure(...);
-HttpClient client = HttpClient.create()
-        ...
-        // Configure HTTP/3 SslContext
-        .secure(spec -&gt; spec.sslContext(sslContextSpec));
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;webclient&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#webclient&quot; aria-label=&quot;webclient permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;WebClient&lt;/h3&gt;
-&lt;p&gt;You can configure the underlying Reactor Netty &lt;code&gt;HttpClient&lt;/code&gt;, using &lt;code&gt;ReactorClientHttpConnector&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Bean
-WebClient http3WebClient(WebClient.Builder builder) {
-    HttpClient client = ...;
-    return builder.clientConnector(new ReactorClientHttpConnector(client)).build();
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;rest-controller-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rest-controller-1&quot; aria-label=&quot;rest controller 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;REST Controller&lt;/h4&gt;
-&lt;p&gt;You can create a simple REST controller that makes a remote call utilizing the new &lt;code&gt;HTTP/3&lt;/code&gt; configuration.
-The REST controller does not need any specific &lt;code&gt;HTTP/3&lt;/code&gt; configuration!&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@RestController
-class Http3Controller {
-
-    private final WebClient http3WebClient;
-
-    Http3Controller(WebClient http3WebClient) {
-        this.http3WebClient = http3WebClient;
-    }
-
-    @GetMapping(&quot;/remote&quot;)
-    Mono&amp;#x3C;String&gt; remote() {
-        return http3WebClient
-                .get()
-                .uri(&quot;https://projectreactor.io/&quot;)
-                .retrieve()
-                .bodyToMono(String.class);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/violetagg/spring-webflux-http3&quot;&gt;spring-webflux-http3&lt;/a&gt; repository contains the complete example.&lt;/p&gt;
-&lt;h3 id=&quot;restclient&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#restclient&quot; aria-label=&quot;restclient permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RestClient&lt;/h3&gt;
-&lt;p&gt;You can configure the underlying Reactor Netty &lt;code&gt;HttpClient&lt;/code&gt;, using &lt;code&gt;ReactorNettyClientRequestFactory&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Bean
-RestClient http3RestClient(RestClient.Builder builder) {
-	HttpClient client = ...;
-	return builder.requestFactory(new ReactorNettyClientRequestFactory(client)).build();
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&quot;rest-controller-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rest-controller-2&quot; aria-label=&quot;rest controller 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;REST Controller&lt;/h4&gt;
-&lt;p&gt;You can create a simple REST controller that makes a remote call utilizing the new &lt;code&gt;HTTP/3&lt;/code&gt; configuration.
-The REST controller does not need any specific &lt;code&gt;HTTP/3&lt;/code&gt; configuration!&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@RestController
-class Http3Controller {
-
-    private final RestClient http3RestClient;
-
-    Http3Controller(RestClient http3RestClient) {
-        this.http3RestClient = http3RestClient;
-    }
-
-    @GetMapping(&quot;/remote&quot;)
-    String remote() {
-        return http3RestClient
-                .get()
-                .uri(&quot;https://projectreactor.io/&quot;)
-                .retrieve()
-                .body(String.class);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/violetagg/spring-webmvc-http3&quot;&gt;spring-webmvc-http3&lt;/a&gt; repository contains the complete example.&lt;/p&gt;
-&lt;p&gt;Now you are ready for your first &lt;code&gt;HTTP/3&lt;/code&gt; remote call:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;curl --http3 https://localhost:8443/remote --verbose
-* Connected to localhost (::1) port 8443
-* using HTTP/3
-* [HTTP/3] [0] OPENED stream for https://localhost:8443/remote
-* [HTTP/3] [0] [:method: GET]
-* [HTTP/3] [0] [:scheme: https]
-* [HTTP/3] [0] [:authority: localhost:8443]
-* [HTTP/3] [0] [:path: /remote]
-* [HTTP/3] [0] [user-agent: curl/8]
-* [HTTP/3] [0] [accept: */*]
-&gt; GET /remote HTTP/3
-&gt; Host: localhost:8443
-&gt; User-Agent: curl/8
-&gt; Accept: */*
-&gt; 
-* Request completely sent off
-&amp;#x3C; HTTP/3 200 
-&amp;#x3C; content-type: text/plain;charset=UTF-8
-&amp;#x3C; content-length: 17138
-...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;spring-cloud-gateway&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-cloud-gateway&quot; aria-label=&quot;spring cloud gateway permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
-&lt;p&gt;You can configure the underlying Reactor Netty &lt;code&gt;HttpClient&lt;/code&gt;, using &lt;code&gt;HttpClientCustomizer&lt;/code&gt; in Spring Cloud Gateway.
-To use this customizer, you need to register it with the Spring Cloud Gateway configuration.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Configuration
-class GatewayConfiguration {
-
-    @Bean
-    HttpClientCustomizer http3HttpClientCustomizer() {
-        return httpClient -&gt;
-                httpClient
-                        // Configure HTTP/3 protocol
-                        .protocol(HttpProtocol.HTTP3)
-                        // Configure HTTP/3 settings
-                        .http3Settings(spec -&gt; spec.idleTimeout(Duration.ofSeconds(5))
-                                .maxData(10_000_000)
-                                .maxStreamDataBidirectionalLocal(1_000_000));
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/violetagg/spring-cloud-gateway-http3&quot;&gt;spring-cloud-gateway-http3&lt;/a&gt; repository contains the complete example.&lt;/p&gt;
-&lt;p&gt;We hope you will enjoy the simplicity of our integration with &lt;code&gt;HTTP/3&lt;/code&gt;. Do reach out in our &lt;a href=&quot;https://github.com/reactor/reactor-netty&quot;&gt;GitHub&lt;/a&gt;/&lt;a href=&quot;https://twitter.com/projectreactor&quot;&gt;Twitter&lt;/a&gt; with feedback!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - November 26th, 2024]]></title><link>https://spring.io/blog/2024/11/26/this-week-in-spring-november-26th-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/11/26/this-week-in-spring-november-26th-2024</guid><dc:creator><![CDATA[joshlong]]></dc:creator><pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;this-week-in-spring---november-26th-2024&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#this-week-in-spring---november-26th-2024&quot; aria-label=&quot;this week in spring   november 26th 2024 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;This Week in Spring - November 26th, 2024&lt;/h1&gt;
-&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;!&lt;/p&gt;
-&lt;p&gt;Happy Spring Boot 3.4 release month to those who celebrate! And, also, Happy Thanksgiving to those who celebrate! Spring Boot 3.4 brings with it long-anticipated updates to the entire portfolio of Spring projects, and so a lot of the content in this roundup has to do with those releases!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Starting with an interview with Spring Framework lead Juergen Hoeller &lt;a href=&quot;https://www.infoq.com/news/2024/11/spring-6-2-spring-boot-3-4/&quot;&gt;and Spring Framework contributor Sébastien Deleuze over on InfoQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reactor legend Violeta Georgieva has a &lt;a href=&quot;https://spring.io/blog/2024/11/26/http3-in-reactor-2024&quot;&gt;nice post introducing HTTP/3 support in Reactor 2024.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I have thoughts on all the amazing new opportunities in Spring Boot 3.4! Like, 50 pages or so worth. So I wrote them all down and published them as a series of blogs looking at Spring Framework, Spring Data, Spring Batch, Spring Integration, Spring Security, Spring Modulith, and Spring AI. Here&apos;s the &lt;a href=&quot;https://spring.io/blog/2024/11/25/bootiful-34-index&quot;&gt;starting blog post&lt;/a&gt;, which serves as a sort of index for all the other posts.
-&lt;ul&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-framework&quot;&gt;the post on Spring Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-data&quot;&gt;the post on Spring Data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-batch&quot;&gt;the post on Spring Batch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-integration&quot;&gt;the post on Spring Integration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-security&quot;&gt;the post on Spring Security&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-modulith&quot;&gt;the post on Spring Modulith&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And here&apos;s &lt;a href=&quot;https://spring.io/blog/2024/11/24/bootiful-34-ai&quot;&gt;the post on Spring AI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;If you want an even better look at Spring Modulith, look no further than this blog &lt;a href=&quot;https://spring.io/blog/2024/11/22/whats-new-in-spring-modulith-1-3&quot;&gt;from Spring Modulith lead Oliver Drotbohm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Here&apos;s the post announcing that &lt;a href=&quot;https://spring.io/blog/2024/11/22/spring-modulith-1-3-ga-released&quot;&gt;Spring Modulith 1.3 was released&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In last week’s installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, &lt;a href=&quot;https://spring.io/blog/2024/11/21/a-bootiful-podcast-terence-lee&quot;&gt;I talked to Heroku&apos;s Terence Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;InfoQ&apos;s Michael Redlich does a nice job looking at all that&apos;s &lt;a href=&quot;https://www.infoq.com/news/2024/11/spring-news-roundup-nov18-2024/&quot;&gt;new and novel in the Spring ecosystem in this post, too&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;While it won&apos;t get as much fanfare as Spring Boot 3.4, &lt;a href=&quot;https://spring.io/blog/2024/11/21/spring-boot-2-7-23-3-0-18-and-3-1-14-available-now&quot;&gt;it&apos;s nice to know that Spring Boot 2.7.23, 3.0.18, and 3.1.14 are available now&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/21/spring-boot-3-4-0-available-now&quot;&gt;Did I mention that Spring Boot 3.4 is here?&lt;/a&gt; &apos;Cause if not, here&apos;s the blog post announcing it!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/21/spring-cloud-2022-0-9-aka-kilburn-has-been-released&quot;&gt;Spring Cloud 2022.0.9, a.k.a. Kilburn, has been released&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/21/spring-boot-3-3-6-available-now&quot;&gt;Spring Boot 3.3.6 is available now&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/21/spring-boot-3-2-12-available-now&quot;&gt;Spring Boot 3.2.12 is available now&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/20/spring-ai-1-0-0-m4-released&quot;&gt;Spring AI 1.0.0.M4 is available now&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/20/spring-batch-5-2-0-goes-ga&quot;&gt;Spring Batch 5.2.0 is GA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/20/spring-integration-6-4-goes-ga&quot;&gt;Spring Integration 6.4 is GA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/19/spring-authorization-server-1-4-goes-ga&quot;&gt;Spring Authorization Server 1.4 is GA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/11/19/spring-for-apache-kafka-3-3-0-3-2-5-and-3-1-10-available-now&quot;&gt;Spring for Apache Kafka 3.3.0, 3.2.5, and 3.1.10 are available now&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;By the way, have you checked &lt;a href=&quot;https://x.com/marcushellberg/status/1860029888553685383?s=12&quot;&gt;out Thomas Vitale&apos;s awesome directory of examples for Spring AI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I love this article on &lt;a href=&quot;https://www.infoq.com/articles/reactive-notification-system-server-sent-events/&quot;&gt;real-time notifications with server-sent events and Spring!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wim Deblauwe has a nice post on &lt;a href=&quot;https://www.wimdeblauwe.com/blog/2024/11/19/redirect-attributes-with-spring-mvc-and-htmx/&quot;&gt;sending redirect attributes with Spring MVC and HTMX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The Trifork blog has a nice discussion &lt;a href=&quot;https://trifork.nl/blog/spring-boot-observability-metrics-tuning/&quot;&gt;on tuning observability metrics in Spring Boot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/lutzh/awesome-event-driven-architecture&quot;&gt;This resource is an awesome compendium of other resources related to event-driven architecture, also worth a read&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A ton of resources to keep you company after the turkey&apos;s started to kick in!&lt;/p&gt;
-&lt;p&gt;I am sure I speak for the entire Spring team when I say: we are thankful for you, dear reader!&lt;/p&gt;
-&lt;p&gt;Happy Thanksgiving!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;h2 id=&quot;looking-forward&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#looking-forward&quot; aria-label=&quot;looking forward permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Looking Forward&lt;/h2&gt;
+&lt;p&gt;Spring AI MCP represents a significant step forward in standardizing AI integration for Java applications. As the MCP ecosystem grows, this SDK will enable Java developers to easily connect with an expanding array of AI models and tools while maintaining consistent, reliable integration patterns.&lt;/p&gt;
+&lt;p&gt;The Spring AI MCP SDK is available now as an experimental module, licensed under Apache License 2.0. We invite the community to explore, contribute, and help shape the future of AI integration in the Java ecosystem.&lt;/p&gt;</content:encoded></item></channel></rss>
