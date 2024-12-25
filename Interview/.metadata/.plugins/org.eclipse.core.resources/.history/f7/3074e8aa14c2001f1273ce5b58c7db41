@@ -1,0 +1,13 @@
+package practical;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class TestStudentSerializable {
+
+	
+	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
+		
+		StudentSerializable s = new StudentSerializable(20,"Shubh");
+	}
+}

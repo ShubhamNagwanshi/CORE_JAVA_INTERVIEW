@@ -1,0 +1,16 @@
+package practical;
+
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+
+
+public class ReadAndWriteFromKeyBoard {
+
+	public static void main(String[] args) {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		FileWriter fw = new FileWriter("C://Users//Lenovo//OneDrive//Desktop//IO//Shubh",true)
+	}
+}

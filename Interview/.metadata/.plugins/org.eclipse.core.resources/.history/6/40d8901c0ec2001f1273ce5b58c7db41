@@ -1,0 +1,15 @@
+package practical;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class TestStudentExternalizable {
+
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
+	
+		StudentExternalizable s = new StudentExternalizable(10,"Shubh");
+		
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Lenovo\\OneDrive\\Desktop\\IO\\Externalizable.txt"));
+	}
+}

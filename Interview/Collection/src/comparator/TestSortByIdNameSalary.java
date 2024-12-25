@@ -12,10 +12,10 @@ public static void main(String[] args) {
 		
 		l.add(new Employee(4,"Rahul",8000));
 		l.add(new Employee(2,"Naman",6000));
-		l.add(new Employee(3,"Naman",4000));
+		l.add(new Employee(3,"Ram",4000));
 		l.add(new Employee(1,"Shubh",10000));
 		l.add(new Employee(1,"Gopal",10000));
-		l.add(new Employee(2,"Ram",9000));
+		l.add(new Employee(2,"Naman",9000));
 		
 		E_SortByIdNameSalary byIdNameSalary = new E_SortByIdNameSalary();
 		

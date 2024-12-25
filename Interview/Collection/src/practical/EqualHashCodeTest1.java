@@ -21,26 +21,26 @@ public class EqualHashCodeTest1 {
 			System.out.println(e1.hashCode());
 			System.out.println(e2.hashCode());
 			
-//			Set s = new HashSet();
-//			s.add(e1);
-//			s.add(e4);
-//			System.out.println(s);
-//			s.remove(e2);
-//			s.add(e3);
-//			System.out.println(s);
+			Set s = new HashSet();
+			s.add(e1);
+			s.add(e4);
+			System.out.println(s);
+			s.remove(e2);
+			s.add(e3);
+			System.out.println(s);
 			
-			List l = new ArrayList();
-			
-			l.add(e1);
-			l.add(e4);
-			
-			System.out.println(l);
-			
-			l.remove(e2);
-			l.add(e3);
-			
-			System.out.println(l);
-			
+//			List l = new ArrayList();
+//			
+//			l.add(e1);
+//			l.add(e4);
+//			
+//			System.out.println(l);
+//			
+//			l.remove(e2);
+//			l.add(e3);
+//			
+//			System.out.println(l);
+//			
 			
 		}
 

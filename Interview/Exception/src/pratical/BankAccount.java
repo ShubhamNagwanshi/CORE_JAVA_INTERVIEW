@@ -19,11 +19,13 @@ public class BankAccount {
 	}
 
 	public void withdraw(double amt) throws BankException {
-		balance = balance - amt;
-		if (balance < 2000) {
+		
+		if ((balance - amt) < 2000) {
 
 			BankException e = new BankException("Amount is less than 2000");
 			throw e;
+		}else {
+			balance = balance - amt;
 		}
 		
 	}

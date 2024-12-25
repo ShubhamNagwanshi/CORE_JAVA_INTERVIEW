@@ -1,0 +1,105 @@
+package streamAPI;
+
+import java.util.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.*;
+
+class Employee1{
+    private int id;
+    private String name;
+    private String department;
+    private double salary;
+    private int age;
+
+    public Employee1(int id, String name, String department, double salary, int age) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+        this.salary = salary;
+        this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Employee{id=%d, name='%s', department='%s', salary=%.2f, age=%d}", 
+                             id, name, department, salary, age);
+    }
+}
+
+public class ComplexStreamExample {
+    public static void main(String[] args) {
+        List<Employee1> employees = Arrays.asList(
+            new Employee1(1, "Alice", "HR", 50000, 30),
+            new Employee1(2, "Bob", "IT", 70000, 25),
+            new Employee1(3, "Charlie", "Finance", 80000, 40),
+            new Employee1(4, "Diana", "IT", 75000, 28),
+            new Employee1(5, "Edward", "Finance", 90000, 50),
+            new Employee1(6, "Fiona", "HR", 60000, 35)
+        );
+
+        // 1. Group employees by department
+        Map<String, List<Employee1>> employeesByDept = employees.stream()
+            .collect(groupingBy(Employee1::getDepartment));
+        System.out.println("Employees grouped by department:");
+        employeesByDept.forEach((dept, emps) -> System.out.println(dept + " -> " + emps));
+
+        // 2. Calculate the average salary of employees in each department
+        Map<String, Double> avgSalaryByDept = employees.stream()
+            .collect(groupingBy(Employee1::getDepartment, averagingDouble(Employee1::getSalary)));
+        System.out.println("\nAverage salary by department:");
+        avgSalaryByDept.forEach((dept, avgSalary) -> System.out.println(dept + " -> " + avgSalary));
+
+        // 3. Find the highest-paid employee
+        Optional<Employee1> highestPaid = employees.stream()
+            .max(Comparator.comparingDouble(Employee1::getSalary));
+        System.out.println("\nHighest-paid employee:");
+        highestPaid.ifPresent(System.out::println);
+
+        // 4. Get a list of all Employee1names sorted by age
+        List<String> sortedNamesByAge = employees.stream()
+            .sorted(Comparator.comparingInt(Employee1::getAge))
+            .map(Employee1::getName)
+            .collect(toList());
+        System.out.println("\nEmployee1names sorted by age:");
+        System.out.println(sortedNamesByAge);
+
+        // 5. Create a map of employees by age, keeping only those older than 30
+        Map<Integer, List<Employee1>> employeesByAge = employees.stream()
+            .filter(emp -> emp.getAge() > 30)
+            .collect(groupingBy(Employee1::getAge));
+        System.out.println("\nEmployees older than 30 grouped by age:");
+        employeesByAge.forEach((age, emps) -> System.out.println(age + " -> " + emps));
+
+        // 6. Total salary of all employees in the IT department
+        double totalItSalary = employees.stream()
+            .filter(emp -> "IT".equals(emp.getDepartment()))
+            .mapToDouble(Employee1::getSalary)
+            .sum();
+        System.out.println("\nTotal salary of IT department: " + totalItSalary);
+
+        // 7. Check if all employees are older than 20
+        boolean allOlderThan20 = employees.stream()
+            .allMatch(emp -> emp.getAge() > 20);
+        System.out.println("\nAre all employees older than 20? " + allOlderThan20);
+    }
+}

@@ -1,0 +1,12 @@
+package practical;
+
+import java.io.IOException;
+
+public class ReadAndWriteBinaryFile {
+
+	public static void main(String[] args) throws IOException {
+		
+		String source = "C://Users//Lenovo//OneDrive//Desktop//IO//demon.webp";
+		
+	}
+}
