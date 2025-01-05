@@ -1,0 +1,16 @@
+package practical;
+
+public class Account {
+
+	private int balance;
+	
+	
+	public void setBalance(int balance) {
+		try {
+			Thread.sleep(200);
+		} catch (InterruptedException e) {
+
+			e.printStackTrace();
+		}
+	}
+}

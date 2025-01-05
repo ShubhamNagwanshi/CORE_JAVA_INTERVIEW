@@ -12,18 +12,20 @@ public class ReadAndWriteFromKeyBoard {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		FileWriter fw = new FileWriter("C://Users//Lenovo//OneDrive//Desktop//IO//Shubh",true);
+		FileWriter fw = new FileWriter("C://Users//Lenovo//OneDrive//Desktop//IO//sh.txt",true);
 		
 		System.out.println("enter here");
 		
 		String str = br.readLine();
 		
-		while(str != null) {
+		while(str != null && !str.equalsIgnoreCase("exit")) {
 			fw.write(str);
 			
 			System.out.println(str);
 			str = br.readLine();
 		}
+		fw.flush();
+		fw.close();
 		br.close();
 		
 	}

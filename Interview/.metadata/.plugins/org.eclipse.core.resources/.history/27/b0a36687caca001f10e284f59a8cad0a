@@ -1,0 +1,19 @@
+package practical;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+public class QuoteServer {
+
+	public static void main(String[] args) throws IOException{
+		
+		String[] quotes = {"Bura mt dekhoo", "Bura mt suno", "Bura mt bolo"};
+		
+		DatagramSocket socket = new DatagramSocket(5432);
+		
+		byte[] buf = new byte[256];
+		
+		DatagramPacket packet = new DatagramPacket(buf, buf.le)
+	}
+}

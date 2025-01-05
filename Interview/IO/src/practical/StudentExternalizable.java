@@ -30,7 +30,7 @@ public class StudentExternalizable implements Externalizable{
 	public void writeExternal(ObjectOutput out) throws IOException {
 
 		out.writeObject(name);
-//		out.writeInt(id);
+		out.writeInt(id);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class StudentExternalizable implements Externalizable{
 		// TODO Auto-generated method stub
 		
 		name = (String) in.readObject();
-//		id = in.readInt();
+		id = in.readInt();
 		
 	}
 
